@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: hsl(189, 55%, 55%);
+    font-family: 'Open sans', sans-serif;
+    background-image: url('https://source.unsplash.com/1600x900/?city');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@import "card";
